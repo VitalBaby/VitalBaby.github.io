@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>VitalBaby</title>
+	<style>
+		body {
+            font-family: Arial, sans-serif;
+            color: white;
+            background-image: url(imagen/cielo.jpg);
+            margin: 1;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center; 
+            min-height: 100vh
+		}
+        .container_Titulo {
+            display: flex;
+			flex-wrap: wrap;
+			margin: 0 auto;
+			max-width: 800px;
+			padding: 20px;        
+        }
+		.container {
+			display: flex;
+            align-content:center;
+			flex-wrap: wrap;
+			margin: 1 auto;
+			max-width: 800px;
+			padding: 20px;
+                 
+		}
+        .result-box_1{
+			background-color: #11133C;
+			border-radius: 5px;
+			box-shadow: 0 2px 4px rgb(255, 255, 255);
+			flex: 1 0 200px;
+			margin: 10px;
+			padding: 20px;
+			text-align: center;
+		}
+		.result-box {
+			background-color: #bd96e4;
+			border-radius: 5px;
+			box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+			flex: 1 0 200px;
+			margin: 10px;
+			padding: 20px;
+			text-align: center; 
+              
+		}
+		h2 {
+			margin-top: 0;
+		}
+        .menu{
+            color: aliceblue;
+        }        
+	</style>
+</head>
+<body>
+    <div style="text-align:right;">
+        <img src="imagen/astronauta.png" width="350" height="500" alt="">
+                <div class=".menu">
+                    <li><a href="http://127.0.0.1:5500/contactos.html">Contato con el servidor</a></li>
+                    <li><a href="file:///C:/Users/Monica%20Geronimo/Documents/6to%20semestre/vbb/guia.html#structure">Guia de uso de VitalBaby</a></li>
+                    <li><a href="#">Perfil</a></li>
+                </div>
+    </div>
+    <div class=".container_Titulo"></div>
+        <div class="result-box_1">
+            <h1>Indicador de calidad de sueño</h1>
+        
+            <div class="container">
+                <div></div>
+                <div class="result-box">
+                    <h2>Frecuecia de pulso</h2>
+                    <p id="temperature-result">---</p>
+                </div>
+                <div class="result-box">
+                    <h2>Movimiento</h2>
+                    <p id="spo2-result">---</p>
+                </div>
+                <div class="result-box">
+                    <h2>Ruido</h2>
+                    <p id="spo2-result">---</p>
+                </div>
+                <div class="result-box">
+                    <h2>Humedad </h2>
+                    <p id="spo2-result">---</p>
+                </div>
+                <div class="result-box">
+                    <h2>Spo2</h2>
+                    <p id="spo2-result">---</p>
+                </div>
+                <div class="result-box">
+                    <h2>Depierto</h2>
+                    <p id="spo2-result">---</p>
+                </div>
+                <div class="result-box">
+                    <h2>Temperatura Hambiente</h2>
+                    <p id="spo2-result">---</p>
+                </div>
+        </div>   
+
+ 
